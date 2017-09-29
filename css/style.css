@@ -1,0 +1,194 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+/* header: logo + nav + fondo */
+
+header {
+	background-image: url("../images/bg.jpeg");
+	background-position: center;
+	background-size: cover;
+	min-height: 500px;
+	text-align: center;
+	color: white;
+}
+
+.container_nav {
+	text-align: center;
+}
+
+.header_logo {
+	width: 50%;
+	float: left;
+}
+
+.header_logo img {
+	width: 230px;
+	height: 63px;
+}
+
+nav {
+	width: 50%;
+	float: left;
+}
+
+nav ul li {
+	float: left;
+	padding-left: 50px;
+	padding-top: 30px;
+	list-style: none;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: #a1a1a1;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/* header: texto + botones */
+
+.header_title h1 {
+	margin: auto;
+	padding-top:50px;
+	width: 60%;
+	font-size: 40px;
+	line-height: 1.2;
+}
+
+.container_info {
+	width: 30%;
+	margin: auto;
+	color: white;
+}
+
+.boton_azul, .boton_verde{
+	text-align: center;
+	border-radius: 10px;
+	margin-top:20px;
+}
+
+.boton_azul a, .boton_verde a{
+	text-decoration: none;
+	color: white;
+}
+
+.boton_azul {
+	float: left;
+	width: 35%;
+	background-color: #007cee;
+	margin-left: 18%;
+}
+
+.boton_verde {
+	float: right;
+	width: 25%;
+	background-color: #29e152;
+	margin-right: 18%;
+}
+
+.header_sub {
+	text-align: center;
+	width: 50%;
+	margin: auto;
+}
+
+/* sección información */
+
+.bootcamp, .inscribete, .container_contacto {
+	width: 60%;
+	text-align: center;
+	color: black;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.bootcamp img {
+	max-width: 500px;
+	max-height: 600px;
+	margin-bottom: -4px;
+}
+
+.border_top {
+	border-top: 1px solid gray
+}
+
+/* sección inscripción */
+
+.inscribete_boton {
+	width: 15%;
+	margin: auto;
+	height: 40px;
+	background-color: #007cee;
+	border-radius: 10px;
+	color: white;
+}
+
+.container_inscribete {
+	background-color: #f0f0f0;
+}
+
+.inscribete_boton a {
+	text-decoration: none;
+	position: relative;
+	top: 10px;
+}
+
+.inscribete_boton a:visited {
+	color: white;
+}
+
+.inscribete h5 {
+	padding-bottom: 40px;
+}
+
+/* contacto + suscripción */
+
+.container_contacto {
+	text-align: left;
+	padding-top: 50px;
+}
+
+.contacto {
+	width: 40%;
+	float: left;
+	padding-bottom: 60px;
+}
+
+.contacto h5, .contacto p {
+	margin: 0;
+	padding: 0;
+}
+
+.suscribete {
+	width: 60%;
+	float: left;
+}
+
+.suscribete a {
+	text-decoration: none;
+}
+
+.suscribete input, .suscribete button {
+	background-color: white;
+	border-radius: 5px;
+	border: 1px solid #c1c1c1;
+	padding: 5px;
+}
+
+/* footer */
+
+.footer {
+	height: 50px;
+	color: white;
+	background-color: #3a3a3a;
+	padding: 5px 0 60px 10%;
+}
