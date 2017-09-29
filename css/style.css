@@ -140,6 +140,7 @@ nav ul li a {
 	text-decoration: none;
 	position: relative;
 	top: 10px;
+	color: white;
 }
 
 .inscribete_boton a:visited {
